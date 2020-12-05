@@ -21,7 +21,7 @@ def switch_fortaleza(tipo):
         "psíquico" : "lucha y veneno. No hace daño a siniestro",
         "agua" : "roca, tierra y fuego"
     }
-    print switcher.get(tipo, "no conozco ese tipo de Pokémon")
+    print (switcher.get(tipo, "no conozco ese tipo de Pokémon"))
 
 
 def switch_debilidad(tipo):
@@ -38,15 +38,15 @@ def switch_debilidad(tipo):
         "tierra" : "hielo, planta y agua. Inmune a eléctrico",
         "veneno" : "psíquico y tierra",
         "acero" : "lucha, fuego y tierra. Inmune a veneno",
-        "dragón" : "hielo, dragón y hada"
+        "dragón" : "hielo, dragón y hada",
         "lucha" : "hada, pśiquico y volador",
         "fantasma" : "siniestro y fantasma. Inmune a normal y lucha",
         "hielo" : "lucha, acero, fuego y roca",
         "psíquico" : "siniestro, fantasma y bicho",
         "agua" : "eléctrico y planta"
     }
-    print switcher.get(tipo, "no conozco ese tipo de Pokémon")
+    print (switcher.get(tipo, "no conozco ese tipo de Pokémon"))
 
 switch_debilidad("lucha");
 switch_fortaleza("lucha");
-switch_fortaleza("caca");
+switch_fortaleza("cyborg");
